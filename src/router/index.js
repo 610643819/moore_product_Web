@@ -9,8 +9,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      redirect: '/login'
+      component: Login,
     },
     // 菜单的路由
     {
